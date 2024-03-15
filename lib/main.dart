@@ -1,8 +1,9 @@
+import 'package:google_fonts/google_fonts.dart';
 import 'package:smart_admin_dashboard/core/constants/color_constants.dart';
 import 'package:smart_admin_dashboard/core/init/provider_list.dart';
 import 'package:smart_admin_dashboard/screens/login/login_screen.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
+//import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 
 void main() {
@@ -15,7 +16,7 @@ Widget build(BuildContext context) {
       child: FutureBuilder(
         builder: (context, snapshot) {
           return MyApp();
-        },
+        }, future: null,
       ));
 }
 
@@ -31,12 +32,11 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: bgColor,
         primaryColor: greenColor,
         dialogBackgroundColor: secondaryColor,
-        buttonColor: greenColor,
         textTheme: GoogleFonts.openSansTextTheme(Theme.of(context).textTheme)
             .apply(bodyColor: Colors.white),
         canvasColor: secondaryColor,
       ),
-      home: Login(title: "Wellcome to the Admin & Dashboard Panel"),
+      home: Login(title: "Welcome to the Admin & Dashboard Panel"),
     );
   }
 }

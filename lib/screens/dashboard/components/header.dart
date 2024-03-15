@@ -23,14 +23,14 @@ class Header extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                "Hello, Deniz 👋",
+                "Hello, Muthu 👋",
                 style: Theme.of(context).textTheme.headline6,
               ),
               SizedBox(
                 height: 8,
               ),
               Text(
-                "Wellcome to your dashboard",
+                "Welcome to your dashboard",
                 style: Theme.of(context).textTheme.subtitle2,
               ),
             ],

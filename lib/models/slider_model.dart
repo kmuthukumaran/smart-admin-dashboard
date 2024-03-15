@@ -37,9 +37,9 @@ var slideData = [
   {
     "image": "assets/slides/background-1.jpeg",
     "kBackgroundColor": 0xFF2c614f,
-    "text": "Welcome to the Smart Smart Admin Dashboard!",
-    "altText": "You can access & track your services in real-time.",
-    "bAltText": "Are you ready for the next generation AI supported Dashboard?",
+    "text": "Welcome to PayTabs Touch Admin Dashboard!",
+    "altText": "You can access & track your Soft POS devices in real-time.",
+    "bAltText": "Are you ready for the acceptance dashboard?",
     "productImage": "assets/images/mockup.png"
   },
   {
